@@ -1,0 +1,21 @@
+REST API  - JSON
+
+GET /api/users  - list all users
+
+GET /api/users/1 - get the user wuth id 1
+GET /api/users/2 - get the user wuth id 2
+
+Dynamic
+GET /api/users/:id - get the user wuth id 2
+
+
+POST /api/users - create new user
+
+PATCH /api/users - edit the users with id 1
+
+DELETE /api/users - delete the user with id 1
+
+// mongoose
+Schema - define the structure
+    Schema - model
+    Using Model we do CRUD operation
