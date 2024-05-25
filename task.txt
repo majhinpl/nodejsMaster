@@ -19,3 +19,16 @@ DELETE /api/users - delete the user with id 1
 Schema - define the structure
     Schema - model
     Using Model we do CRUD operation
+
+
+
+
+// Routes
+
+// REST APIs
+
+// app.get("/api/users/:id", (req, res) => {
+//   const id = Number(req.params.id);
+//   const user = users.find((user) => user.id === id);
+//   return res.json(user);
+// });

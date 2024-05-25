@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 // database connections
 
 const connectString =
-  "mongodb+srv://stockslifyblog:blogstockslify@cluster0.9ydztor.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://ssrblog:QcJ9hvQmcowUbnVi@blog.zvd1g7e.mongodb.net/?retryWrites=true&w=majority&appName=blog";
 
 async function dbConnect() {
   await mongoose.connect(connectString);
